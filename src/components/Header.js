@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { ImCancelCircle} from "react-icons/im";
 import odm from "../assets/ODM2.png";
 import { MdOutlineCancel} from "react-icons/md";
 import { BiMenuAltRight} from "react-icons/bi";
@@ -11,8 +10,8 @@ export function Header() {
 
   return (
 
-<div >
-    <nav className="bg-gray-100 shadow mb-14 ">
+
+<nav className="bg-gray-100 shadow mb-14 ">
 
         <div className="max-w-7xl mx-auto px-8 ">
             
@@ -36,7 +35,7 @@ export function Header() {
                         
                     </a>                    
 
-                    <div className="hidden md:block">
+                    <div className="hidden md:block font-medium">
                         
                         <div className= 
                         {`ml-10 flex 
@@ -50,7 +49,7 @@ export function Header() {
                             text-myOtherBlack text-base 
                             px-3 py-2 
                             rounded-md  
-                            font-normal font-Poppins
+                            font-Poppins
                             hover:text-black 
                             transition duration-300
                             
@@ -66,7 +65,7 @@ export function Header() {
                             text-myOtherBlack text-base 
                             px-3 py-2 
                             rounded-md  
-                            font-normal font-Poppins
+                            font-Poppins
                             hover:text-black 
                             transition duration-300
                             
@@ -113,20 +112,18 @@ export function Header() {
         {open ? 
 
         <div className= 
-        {`md:hidden flex flex-col items-center gap-3    
-        text-lg font-semibold h-[50px] transition-css
+        {`md:hidden flex justify-center items-center gap-8    
+        text-lg font-medium h-[50px] transition-css
         px-12 sm:px-24 font-Poppins
         `}>            
 
             <a className=" " href="#projects">
-                    Project
+                    Projects
             </a>
                 
             <a className="" href="#contact">
                     Contact
-            </a>
-
-           
+            </a>         
             
         </div>
 
@@ -137,8 +134,10 @@ export function Header() {
 
         }
 
-    </nav>
-</div>
+</nav>
+
+    
+
 
   )
 }

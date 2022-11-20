@@ -26,17 +26,17 @@ export function Footer() {
                         
                         <div className="ml-10 flex items-baseline sm:space-x-2">
 
-                            <a className="text-myBlack px-1 sm:px-0 py-2 rounded-md text-xl hover:text-slate-900 transition duration-300 " 
+                            <a className="text-gray-600 px-1 sm:px-0 py-2 rounded-md text-xl hover:text-gray-900 transition duration-300 " 
                                 href="https://api.whatsapp.com/send/?phone=4244181500&text&type=phone_number&app_absent=0" target= "_blank">
                               <i className= "uil uil-whatsapp mb-2"></i> 
                             </a>
 
-                            <a className="text-myBlack px-1 sm:px-0 py-2 rounded-md text-xl hover:text-slate-900 transition duration-300 " 
+                            <a className="text-gray-600 px-1 sm:px-0 py-2 rounded-md text-xl hover:text-gray-900 transition duration-300 " 
                                 href="https://www.linkedin.com/in/oswaldo-diaz-milanes-951319146/" target= "_blank">
                               <i className= "uil uil-linkedin mb-2"></i> 
                             </a>
 
-                            <a className="text-myBlack px-1 sm:px-0 py-2 rounded-md text-xl hover:text-slate-900 transition duration-300 " 
+                            <a className="text-gray-600 px-1 sm:px-0 py-2 rounded-md text-xl hover:text-gray-900 transition duration-300 " 
                                 href="https://github.com/OswaldoDM" target= "_blank">
                               <i className= "uil uil-github-alt mb-2"></i> 
                             </a>                    
