@@ -1,6 +1,9 @@
 import { useState } from "react"
 import { ImCancelCircle} from "react-icons/im";
 import odm from "../assets/ODM2.png";
+import { MdOutlineCancel} from "react-icons/md";
+import { BiMenuAltRight} from "react-icons/bi";
+
 
 export function Header() {
 
@@ -84,69 +87,54 @@ export function Header() {
                 </div>
 
                 
-                <div className="-mr-2 flex md:hidden relative">
+                <div className="md:hidden">
 
-                    <button className= 
-                    {`text-myBlack inline-flex items-center 
-                    justify-center p-2 rounded-md 
-                    focus:outline-none
-                    `} 
-                    onClick={() => setOpen(!open)}>
-                        
+                    <button onClick={() => setOpen(!open)} 
+                    className= {`text-myPurple p-2 `} >            
+                                    
                         {open ? 
 
-                        <ImCancelCircle className="h-8 w-8"/>
+                        <MdOutlineCancel className="h-8 w-8"/>
 
                         :
 
-                        <svg 
-                        width="20" height="20" fill="currentColor" 
-                        className="h-8 w-8" 
-                        viewBox="0 0 1792 1792" 
-                        xmlns="http://www.w3.org/2000/svg">
-                            <path 
-                            d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 
-                            19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 
-                            45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
-                            </path>                            
-                        </svg>
+                        <BiMenuAltRight className="h-8 w-8"/>            
 
-                        }
+                        }              
 
-                    </button>
+                    </button>          
 
-                </div>
+                </div> 
 
             </div>
         </div>
 
-        {/* mobile menu */}
         
-        {open && 
-        <div className="md:hidden flex justify-center">
+        {open ? 
 
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className= 
+        {`md:hidden flex flex-col items-center gap-3    
+        text-lg font-semibold h-[50px] transition-css
+        px-12 sm:px-24 font-Poppins
+        `}>            
 
-                <a href="#projects" 
-                className=  
-                {`text-myBlack block px-3 py-2 
-                rounded-md text-base font-medium 
-                font-Poppins
-                `} >
-                    Projects
-                </a>
+            <a className=" " href="#projects">
+                    Project
+            </a>
                 
-                <a href="#contact" 
-                className=  
-                {`text-myBlack block px-3 py-2 
-                rounded-md text-base font-medium 
-                font-Poppins
-                `} >
+            <a className="" href="#contact">
                     Contact
-                </a>
-            </div>
+            </a>
+
+           
             
         </div>
+
+        :
+
+        <div className= "h-0 transition-css"></div>
+
+
         }
 
     </nav>
