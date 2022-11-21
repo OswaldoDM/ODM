@@ -35,7 +35,7 @@ export function Header() {
                         
                     </a>                    
 
-                    <div className="hidden md:block font-medium">
+                    <div className="hidden md:block font-medium animate__animated animate__fadeInRight">
                         
                         <div className= 
                         {`ml-10 flex 
@@ -136,8 +136,8 @@ export function Header() {
 
 </nav>
 
+)
+}
     
 
 
-  )
-}

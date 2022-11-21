@@ -15,7 +15,7 @@ export function Hero() {
     <div  className="container mx-auto bg-gray-100 flex justify-between items-center px-6  md:px-4 lg:px-20 xl:mt-20 2xl:px-40  ">
                 
         <div 
-            className = "hidden sm:flex sm:w-[20%] sm:text-xl md:w-[22%]  md:text-2xl flex-col justify-center items-center ">
+            className = " animate__animated animate__fadeInLeft hidden sm:flex sm:w-[20%] sm:text-xl md:w-[22%]  md:text-2xl flex-col justify-center items-center ">
 
            <a href="https://api.whatsapp.com/send/?phone=4244181500&text&type=phone_number&app_absent=0" target= "_blank"> 
                 <i className= "uil uil-whatsapp mb-2 cursor-pointer text-gray-600 hover:text-gray-900 transition duration-300"></i> 
@@ -69,7 +69,7 @@ export function Hero() {
         </div>
             
             
-        <div className = "hidden sm:flex sm:relative sm:bottom-10 lg:bottom-6 xl:bottom-3  flex-1 items-center justify-center ">
+        <div className = "animate__animated animate__fadeInRight hidden sm:flex sm:relative sm:bottom-10 lg:bottom-6 xl:bottom-3  flex-1 items-center justify-center ">
             <img src = {pic} className = 
             "rounded-full sm:w-[140px] sm:h-[140px] md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px] xl:w-[230px] xl:h-[230px] "></img>
         </div>        
