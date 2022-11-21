@@ -69,7 +69,7 @@ export function Hero() {
         </div>
             
             
-        <div className = "animate__animated animate__fadeInRight hidden sm:flex sm:relative sm:bottom-10 lg:bottom-6 xl:bottom-3  flex-1 items-center justify-center ">
+        <div className = "hidden sm:flex sm:relative sm:bottom-10 lg:bottom-6 xl:bottom-3  flex-1 items-center justify-center ">
             <img src = {pic} className = 
             "rounded-full sm:w-[140px] sm:h-[140px] md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px] xl:w-[230px] xl:h-[230px] "></img>
         </div>        
