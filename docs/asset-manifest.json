@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c6fa2531.css",
+    "main.js": "./static/js/main.7bd27887.js",
+    "static/media/MightyGifs.png": "./static/media/MightyGifs.e7a71a8cf3dc5de8b39a.png",
+    "static/media/Influencer.png": "./static/media/Influencer.633a8b10915bbdf58a49.png",
+    "static/media/pic.png": "./static/media/pic.df7aaf1c41c5fab3ba2f.png",
+    "static/media/SmartWatch.png": "./static/media/SmartWatch.106774e90ffbf6248a82.png",
+    "static/media/CryptoToday.png": "./static/media/CryptoToday.d37afa56c33e01fd6067.png",
+    "static/media/SpaceX.png": "./static/media/SpaceX.965776fd0213b6059252.png",
+    "static/media/ODM2.png": "./static/media/ODM2.9bd6bf70fea5efb72231.png",
+    "index.html": "./index.html",
+    "main.c6fa2531.css.map": "./static/css/main.c6fa2531.css.map",
+    "main.7bd27887.js.map": "./static/js/main.7bd27887.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6fa2531.css",
+    "static/js/main.7bd27887.js"
+  ]
+}
