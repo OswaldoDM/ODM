@@ -5,6 +5,7 @@ import { AiOutlineHtml5} from "react-icons/ai";
 import { TbBrandCss3} from "react-icons/tb";
 import { TbBrandJavascript} from "react-icons/tb";
 
+
 export function Hero() {    
 
     return(
@@ -31,7 +32,12 @@ export function Hero() {
         </div>
 
         <div className = "flex flex-1 flex-col py-14 sm:py-10 xl:py-14">
-            <h1 className = "font-semibold text-[65px] leading-none text-myBlack text-center">Oswaldo Diaz<br />Milanes</h1>
+
+            <h1 className = 
+            {`font-semibold text-[65px] 
+            leading-none text-myBlack text-center
+            animate__animated animate__fadeInDown 
+            `}>Oswaldo Diaz<br />Milanes</h1>
             
             <h2 className = " mt-5 mb-4 font-medium font-Poppins text-base text-gray-600 text-center">Front-End Developer</h2>
 

@@ -21,7 +21,7 @@ export function Header() {
             justify-between h-16
             `}>
 
-                <div>
+                <div className="animate__animated animate__fadeInLeft">
                     <img src= {odm} className= "w-28 md:w-24 h-8"></img>
                 </div>
                 
